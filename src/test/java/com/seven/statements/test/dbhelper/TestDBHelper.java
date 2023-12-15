@@ -14,7 +14,6 @@ public class TestDBHelper {
 			stmt.executeUpdate("truncate table message");
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
